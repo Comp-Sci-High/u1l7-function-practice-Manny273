@@ -52,3 +52,7 @@ console.log(calculate(6))
 // BONUS TASK: 
 // Write a new function that within calls any 2 of the above functions and returns the sum or concatenation of their output. 
 // Test your function
+function sumOfFunction(){
+   return `${greetUser("Manny")} you are ${divide(34,2)}`
+}
+console.log(sumOfFunction())
